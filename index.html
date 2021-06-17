@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.css' rel='stylesheet' />
+    <link rel="stylesheet" href="style.css">
+    <title>Virtual Doctor</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-success navbar-dark py-3 fixed-top">
+        <div class="container">
+            <a href="#" class="navbar-brand text-info">
+                <h1>Virtual Doctor</h1>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse text-info" id="navmenu">
+
+                <ul class="navbar nav ms-auto text-dark">
+                    <li class="nav-item">
+                        <a href="#learn" class="nav-link text-dark">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#Createaccount" class="nav-link text-dark">Sign up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#imeetadoctor" class="nav-link text-dark">Consult A Doctor</a>
+                    </li>
+                </ul>
+            </div>
+
+
+        </div>
+    </nav>
+    <section class="section bg-dark text-light p-5  p-lg-0 pt-lg-5 text-center text-sm-start">
+        <div class="container">
+            <div class="d-sm-flex align-items-center jutify-content-between ">
+                <div>
+                    <h2>Receive <span class="text-info">Virtual Health</span> care</h2>
+                    <P class="lead my-4">
+                        Receive the best of health care without having to go to any hopsital. Just speak with your
+                        doctor on your phone and allow the doctor t diagnose and prescribe the right medicine for you
+                    </P>
+                    <button type="button" class="btn btn-outline-info btn-lg" data-bs-toggle="modal"
+                        data-bs-target="#Register">Register Now</button>
+                </div>
+                <img class="img-fluid w-50  d-none d-sm-block" src="GettyImages.jpg" alt="" />
+            </div>
+        </div>
+    </section>
+    <section class=" bg-success text-light p-5">
+        <div class="conatiner">
+            <div class="d-md-flex justify-content-between align-item-center">
+                <h4 class="mb-3 mb-md-0">Sign Up For Our Newsletter</h4>
+
+                <div class="input-group news-input">
+                    <input type="text" class="form-control" placeholder="Enter Email">
+
+                    <button class="btn btn-primary btn-lg" type="button">
+                        Sign up
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="p-5">
+        <div class="container">
+            <div class="row text-center g-4 ">
+                <div class="col-md">
+                    <div class="card bg-primary text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-laptop"></i>
+                            </div>
+                            <h3 class="card-title mb-3"> virtual</h3>
+                            <p class="card-text">
+                                Our health care providers are always available to answer your calls and text assist you
+                                24/7
+                            </p>
+                            <a href="#" class="btn btn-warning">Read More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-success text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-person-square"></i>
+                            </div>
+                            <h3 class="card-title mb-3"> Consult your Doctor</h3>
+                            <p class="card-text">
+                                Visit the consulting room without having to come to the hospital. We are just a call
+                                away.
+                            </p>
+                            <a href="#" class="btn btn-info">Call Now </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md">
+                    <div class="card bg-info text-light">
+                        <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-people"></i>
+                            </div>
+                            <h3 class="card-title mb-3"> In Person </h3>
+                            <p class="card-text">
+                                Our pharmacies are always available 24/7 to help you buy your prescribed medicine
+                            </p>
+                            <a href="#" class="btn btn-success">Buy Your Drugs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="learn" class="p-5">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-md">
+                    <img src="michigan.jpg" class="img-fluid" alt="">
+
+                </div>
+                <div class="col-md p-5">
+                    <h2> what is <span class="text-info">Virtual Doctor</span> ?</h2>
+                    <p class="lead">we understand that everyone's needs are unique. That's why we've built a
+                        comprehensive healthcare platform that provides assistance to individuals no matter how
+                        challenging their situation. We are bridging the gap to ensure you and your loved ones always
+                        have access to variety of understandinghealthcare solutions and medications you can afford.
+                        Sustaining lives and supporting better health while lightening the financial burden isn't just
+                        what we do. It's our promise to you</p>
+
+                    <a href="#" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right"></i> Read More
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="learn" class="p-5 bg-success">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+
+                <div class="col-md p-5">
+                    <h2>Our Team Of <span class="text-info"> Virtual Doctors</span> ?</h2>
+                    <p class="lead">we understand that everyone's needs are unique. That's why we've built a
+                        comprehensive healthcare platform that provides assistance to individuals no matter how
+                        challenging their situation. We are bridging the gap to ensure you and your loved ones always
+                        have access to variety of understandinghealthcare solutions and medications you can afford.
+                        Sustaining lives and supporting better health while lightening the financial burden isn't just
+                        what we do. It's our promise to you</p>
+
+                    <a href="#" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right"></i> Read More
+                    </a>
+                </div>
+                <div class="col-md">
+                    <img src="what-doctors.jpg" class="img-fluid" alt="">
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="p-5" id="questions">
+        <div class="container">
+            <h2 class="text-center mb-4">Frequently Asked Question</h2>
+            <div class="accordion">
+                <div class="accordion accordion-flush" id="questions">
+                    <!--item-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseOne">
+                                Do i need to sign up before i can use Virtual doctor?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">No, you dont need to, but for the sake of future diagonistics
+                                you have to. </div>
+                        </div>
+                    </div>
+                    <!--item2-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseTwo">
+                                Is Virtual Doctor free?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"> <span class="text-info">Virtual Doctor</span> is not free but
+                                our charges are very low and the least you can get now.</div>
+                        </div>
+                        <!--item3-->
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapseThree">
+                                What happens when the situation worsen?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body"><span class="text-danger">When the the condition becomes severe,
+                                    you will be assigned to the best possible health center closer to your
+                                    location</span></div>
+                        </div>
+                    </div>
+                    <!--item4-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingfour">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapsefour">
+                                how much must i pay to Virtual doctor each month?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">pay as low as 5gh cedis each month to recieve free health care
+                                through out the month </div>
+                        </div>
+                    </div>
+                    <!--item5-->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="flush-headingOne">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapsefive">
+                                Do i need to sign up before i can use Virtual doctor?
+                            </button>
+                        </h2>
+                        <div id="flush-collapseOne" class="accordion-collapse collapse"
+                            data-bs-parent="#accordionFlushExample">
+                            <div class="accordion-body">No, you dont need to, but for the sake of future diagonistics
+                                you have to. </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="instructors" class="p-5 bg-success">
+        <div class="container">
+            <h2 class="text-center text-white">Our Leaders</h2>
+            <p class="lead ytext-center text-white mb-">
+                These are the people the made the Virtual Doctor idea come into existance.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus saepe vel cum illum delectus dolorem
+                inventore voluptatem illo, excepturi exercitationem quis enim porro amet rerum corporis natus odit
+                voluptatibus facere!
+            </p>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="max02.jpg" class="rounded-circle mb-3" alt="" height="150px">
+                            <h3 class="card-title mb-3">Maxwell Owusu</h3>
+                            <p class="card-text">
+                                Maxwell is the owner and the founder of the Virtul Doctor
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem similique reprehenderit
+                                labore quaerat tenetur minima.
+
+                            </p>
+                            <a href="https://twitter.com/AggerMaxwell"> <i class="bi bi-twitter"></i></a>
+                            <a href="https://instagram.com/AggerMaxwell"> <i class="bi bi-instagram"></i></a>
+                            <a href="https://facebook.com/AggerMaxwell"> <i class="bi bi-facebook"></i></a>
+                            <a href="https://linkedin.com/AggerMaxwell"> <i class="bi bi-linkedin"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="max02.jpg" class="rounded-circle mb-3" alt="" height="150px">
+                            <h3 class="card-title mb-3">Maxwell Owusu</h3>
+                            <p class="card-text">
+                                Maxwell is the owner and the founder of the Virtul Doctor
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem similique reprehenderit
+                                labore quaerat tenetur minima.
+
+                            </p>
+                            <a href="https://twitter.com/AggerMaxwell"> <i class="bi bi-twitter"></i></a>
+                            <a href="https://instagram.com/AggerMaxwell"> <i class="bi bi-instagram"></i></a>
+                            <a href="https://facebook.com/AggerMaxwell"> <i class="bi bi-facebook"></i></a>
+                            <a href="https://linkedin.com/AggerMaxwell"> <i class="bi bi-linkedin"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="aileen2.jpg" class="rounded-circle mb-3" alt="" height="150px">
+                            <h3 class="card-title mb-3">Aileen Owusu</h3>
+                            <p class="card-text">
+                                Aileen is the owner and the founder of the Virtul Doctor
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem similique reprehenderit
+                                labore quaerat tenetur minima.
+
+                            </p>
+                            <a href="https://twitter.com/AggerMaxwell"> <i class="bi bi-twitter"></i></a>
+                            <a href="https://instagram.com/AggerMaxwell"> <i class="bi bi-instagram"></i></a>
+                            <a href="https://facebook.com/AggerMaxwell"> <i class="bi bi-facebook"></i></a>
+                            <a href="https://linkedin.com/AggerMaxwell"> <i class="bi bi-linkedin"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img src="aileen2.jpg" class="rounded-circle mb-3" alt="" height="150px">
+                            <h3 class="card-title mb-3">Nana Kwame</h3>
+                            <p class="card-text">
+                                Nana is the owner and the founder of the Virtul Doctor
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem similique reprehenderit
+                                labore quaerat tenetur minima.
+
+                            </p>
+                            <a href="https://twitter.com/AggerMaxwell"> <i class="bi bi-twitter"></i></a>
+                            <a href="https://instagram.com/AggerMaxwell"> <i class="bi bi-instagram"></i></a>
+                            <a href="https://facebook.com/AggerMaxwell"> <i class="bi bi-facebook"></i></a>
+                            <a href="https://linkedin.com/AggerMaxwell"> <i class="bi bi-linkedin"></i></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="p-5">
+        <div class="conatiner">
+            <row class=" row go-4">
+                <div class="col-md">
+                    <h2 class="text-center mb-4">Contact Info </h2>
+                    <ul class="list-group list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main Location : </span>Santasi plot 4 Blk 12
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">CEO number : </span>(+233)550004909
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Toll Free Line : </span>08000000000
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Enqiury line : </span>0555811680
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Whatsapp Line : </span>(+233)560987842
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">E-mail : </span>maxwell.agger@gmail.com
+                        </li>
+                    </ul>
+                </div>
+                <div class="col md">
+                    <div id="map">
+
+                    </div>
+                </div>
+
+        </div>
+        </row>
+
+        </div>
+    </section>
+    <footer class="p-5 bg-dark text-white text-center position-relative">
+
+        <div class="container">
+            <p class="lead">
+                Copyright &copy; 2021 Virtual Doctor
+            </p>
+        </div>
+    </footer>
+    <!-- Modal -->
+    <div class="modal fade" id="Register" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content bg-info mb-3">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p class=" lead"> Fill out this form to Register</p>
+                    <form>
+                        <mb-3>
+                            <label for="first-name" class="col-form-label">First Name: 
+                                 </label>
+                                 <input type="text" class="form-control" id="firstname">
+                        </mb-3>
+                    </form> 
+                </div>
+                <div class="modal-body">
+                    
+                    <form>
+                        <mb-3>
+                            <label for="Last-name" class="col-form-label">Last Name: 
+                                 </label>
+                                 <input type="text" class="form-control" id="firstname">
+                        </mb-3>
+                    </form> 
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <mb-3>
+                            <label for="User-name" class="col-form-label">User Name: 
+                                 </label>
+                                 <input type="text" class="form-control" id="firstname">
+                        </mb-3>
+                    </form> 
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <mb-3>
+                            <label for="E-mail" class="col-form-label">E mail: 
+                                 </label>
+                                 <input type="text" class="form-control" id="firstname">
+                        </mb-3>
+                    </form> 
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Save</button>
+                    <button type="button" class="btn btn-info">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+
+    <script src='https://api.mapbox.com/mapbox-gl-js/v2.1.1/mapbox-gl.js'></script>
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoibWF4d2VsYWdnZXIxIiwiYSI6ImNrcTByMWYwODA3bTQyb3U5cXd2ZzlmeXgifQ.BF-uRzpYXMHfWqSBqatd4w';
+        var map = new mapboxgl.Map({
+            container: 'map',
+            style: 'mapbox://styles/mapbox/streets-v11',
+            center: [36.010300, -75.711450],
+            zoom: 18,
+        })
+    </script>
+</body>
+
+</html>
